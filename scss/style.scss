@@ -1,0 +1,101 @@
+@use "./colors" as *;
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html {
+	scroll-padding-top: 200px;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: $bg-color;
+	height: 100%;
+}
+.shadow-bg {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav {
+	position: sticky;
+	z-index: 5;
+	transition: background-color 0.3s;
+	.navbar-toggler {
+		padding: 10px 15px;
+	}
+	.navbar-brand img {
+		width: 100px;
+		height: 98px;
+	}
+	.nav-link,
+	.navbar-nav .show > .nav-link,
+	.navbar-brand,
+	.fa-bars {
+		text-transform: uppercase;
+		font-size: 36px;
+		margin-left: 15px;
+		color: $main-color;
+		transition: color 0.5s;
+	}
+
+	.nav-link:focus,
+	.nav-link:hover,
+	.navbar-nav .nav-link.active,
+	.navbar-nav .show > .nav-link {
+		color: $secondary-color;
+	}
+}
+
+header.hero-img {
+	position: relative;
+	height: 700px;
+	background-image: url("./img/header.jpg");
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+
+	.hero-shadow {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(31, 31, 31, 0.78);
+		z-index: -5;
+	}
+	.hero-logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100%;
+
+		img {
+			height: 98px;
+		}
+
+		h1 {
+			text-transform: uppercase;
+			color: $main-color;
+		}
+	}
+}
+.music {
+	.section-title {
+		font-size: 60px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: $main-color;
+	}
+	.covers img {
+		padding-right: 20px;
+		height: 300px;
+		transition: scale 0.3s;
+		cursor: pointer;
+	}
+	.covers img:hover {
+		scale: 1.1;
+	}
+}
