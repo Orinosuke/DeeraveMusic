@@ -19,7 +19,6 @@ body {
 }
 
 nav {
-	position: sticky;
 	z-index: 5;
 	transition: background-color 0.3s;
 	.navbar-toggler {
@@ -93,8 +92,17 @@ header.hero-img {
 	.covers img {
 		padding-right: 20px;
 		height: 300px;
-		transition: scale 0.3s;
 		cursor: pointer;
+	}
+}
+
+footer {
+	background-color: $bg-color;
+}
+
+@media (min-width: 1200px) {
+	.covers img {
+		transition: scale 0.3s;
 	}
 	.covers img:hover {
 		scale: 1.1;
@@ -102,6 +110,11 @@ header.hero-img {
 }
 
 @media (max-width: 768px) {
+	nav {
+		position: fixed;
+		overflow-x: hidden;
+	}
+
 	header.hero-img {
 		position: relative;
 		height: 700px;
@@ -136,6 +149,21 @@ header.hero-img {
 				text-transform: uppercase;
 				color: $main-color;
 			}
+		}
+	}
+	.music {
+		.section-title {
+			font-size: 40px;
+			text-transform: uppercase;
+			font-weight: bold;
+			text-align: center;
+			color: $main-color;
+		}
+		.covers img {
+			height: 160px;
+			padding-top: 10px;
+
+			cursor: pointer;
 		}
 	}
 }

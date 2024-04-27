@@ -19,7 +19,6 @@ body {
 }
 
 nav {
-  position: sticky;
   z-index: 5;
   transition: background-color 0.3s;
 }
@@ -89,14 +88,26 @@ header.hero-img .hero-logo h1 {
 .music .covers img {
   padding-right: 20px;
   height: 300px;
-  transition: scale 0.3s;
   cursor: pointer;
 }
-.music .covers img:hover {
-  scale: 1.1;
+
+footer {
+  background-color: #272727;
 }
 
+@media (min-width: 1200px) {
+  .covers img {
+    transition: scale 0.3s;
+  }
+  .covers img:hover {
+    scale: 1.1;
+  }
+}
 @media (max-width: 768px) {
+  nav {
+    position: fixed;
+    overflow-x: hidden;
+  }
   header.hero-img {
     position: relative;
     height: 700px;
@@ -129,5 +140,17 @@ header.hero-img .hero-logo h1 {
     margin-top: 20px;
     text-transform: uppercase;
     color: white;
+  }
+  .music .section-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+  .music .covers img {
+    height: 160px;
+    padding-top: 10px;
+    cursor: pointer;
   }
 }/*# sourceMappingURL=style.css.map */
