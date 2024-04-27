@@ -50,7 +50,7 @@ nav .navbar-nav .show > .nav-link {
 header.hero-img {
   position: relative;
   height: 700px;
-  background-image: url("./img/header.jpg");
+  background-image: url("../img/header.jpg");
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -75,6 +75,7 @@ header.hero-img .hero-logo img {
   height: 98px;
 }
 header.hero-img .hero-logo h1 {
+  margin-top: 20px;
   text-transform: uppercase;
   color: white;
 }
