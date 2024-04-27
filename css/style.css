@@ -1,284 +1,284 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 html {
-  scroll-padding-top: 200px;
+	scroll-padding-top: 200px;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #272727;
-  height: 100%;
+	font-family: "Montserrat", sans-serif;
+	background-color: #272727;
+	height: 100%;
 }
 
 .shadow-bg {
-  background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 nav {
-  z-index: 5;
-  transition: background-color 0.5s;
+	z-index: 5;
+	transition: background-color 0.5s;
 }
 nav .navbar-toggler {
-  padding: 15px 15px;
-  border: none;
+	padding: 15px 15px;
+	border: none;
 }
 nav .navbar-brand img {
-  width: 100px;
-  height: 98px;
+	width: 100px;
+	height: 98px;
 }
 nav .nav-link,
 nav .navbar-nav .show > .nav-link,
 nav .navbar-brand,
 nav .fa-bars {
-  text-transform: uppercase;
-  font-size: 20px;
-  color: white;
-  transition: color 0.5s;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
+	transition: color 0.5s;
 }
 nav .nav-link:focus,
 nav .nav-link:hover,
 nav .navbar-nav .nav-link.active,
 nav .navbar-nav .show > .nav-link {
-  color: rgb(24, 126, 221);
+	color: rgb(24, 126, 221);
 }
 
 header.hero-img {
-  position: relative;
-  height: 100vh;
-  background-image: url("../img/header.jpg");
-  background-size: cover;
-  background-position: center;
-  z-index: 0;
+	position: relative;
+	height: 100vh;
+	background-image: url("../img/header.jpg");
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
 }
 header.hero-img .hero-shadow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(31, 31, 31, 0.78);
-  z-index: -5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(31, 31, 31, 0.78);
+	z-index: -5;
 }
 header.hero-img .hero-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
 }
 header.hero-img .hero-logo img {
-  height: 98px;
+	height: 98px;
 }
 header.hero-img .hero-logo h1 {
-  margin-top: 20px;
-  font-size: 27px;
-  text-transform: uppercase;
-  color: white;
+	margin-top: 20px;
+	font-size: 27px;
+	text-transform: uppercase;
+	color: white;
 }
 
 .music .section-title {
-  font-size: 60px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: white;
+	font-size: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
 }
 .music .covers {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .music .covers img {
-  height: 300px;
-  cursor: pointer;
-  transition: scale 0.3s;
+	height: 300px;
+	cursor: pointer;
+	transition: scale 0.3s;
 }
 .music .covers img:hover {
-  scale: 1.1;
+	scale: 1.1;
 }
 
 .contact {
-  position: relative;
-  height: 330px;
-  background-image: url("../img/header.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  z-index: 0;
+	position: relative;
+	height: 330px;
+	background-image: url("../img/header.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	z-index: 0;
 }
 .contact .contact-shadow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(31, 31, 31, 0.78);
-  z-index: -5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(31, 31, 31, 0.78);
+	z-index: -5;
 }
 .contact .section-title {
-  font-size: 60px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: white;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
 }
 .contact .booking {
-  font-size: 40px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	color: white;
 }
 .contact .contact-info {
-  font-size: 30px;
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
 }
 .contact .social-media {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .contact .social-media a {
-  color: white;
-  font-size: 36px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  transition: color 0.5s;
+	color: white;
+	font-size: 36px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: color 0.5s;
 }
 .contact .social-media a:hover {
-  color: rgb(24, 126, 221);
+	color: rgb(24, 126, 221);
 }
 
 footer {
-  background-color: #272727;
+	background-color: #272727;
 }
 
 @media (max-width: 1200px) {
-  nav .navbar-brand img {
-    width: 70px;
-    height: 68px;
-  }
-  header.hero-img .hero-logo img {
-    height: 98px;
-  }
-  header.hero-img .hero-logo h1 {
-    font-size: 20px;
-  }
-  .music .section-title {
-    font-size: 60px;
-  }
-  .music .covers {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .music .covers img {
-    padding: 10px;
-    height: 400px;
-  }
-  .contact {
-    height: 310px;
-  }
-  .contact .section-title {
-    font-size: 60px;
-  }
-  .contact .booking {
-    font-size: 40px;
-  }
-  .contact .contact-info {
-    font-size: 20px;
-  }
-  .contact .social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .contact .social-media a {
-    font-size: 30px;
-  }
+	nav .navbar-brand img {
+		width: 70px;
+		height: 68px;
+	}
+	header.hero-img .hero-logo img {
+		height: 98px;
+	}
+	header.hero-img .hero-logo h1 {
+		font-size: 20px;
+	}
+	.music .section-title {
+		font-size: 60px;
+	}
+	.music .covers {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.music .covers img {
+		padding: 10px;
+		height: 400px;
+	}
+	.contact {
+		height: 310px;
+	}
+	.contact .section-title {
+		font-size: 60px;
+	}
+	.contact .booking {
+		font-size: 40px;
+	}
+	.contact .contact-info {
+		font-size: 20px;
+	}
+	.contact .social-media {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.contact .social-media a {
+		font-size: 30px;
+	}
 }
 @media (max-width: 768px) {
-  nav .navbar-brand img {
-    width: 50px;
-    height: 48px;
-  }
-  header.hero-img .hero-logo img {
-    height: 60px;
-  }
-  header.hero-img .hero-logo h1 {
-    font-size: 20px;
-  }
-  .music .section-title {
-    font-size: 60px;
-  }
-  .music .covers img {
-    padding: 10px;
-    height: 300px;
-  }
-  .contact {
-    height: 290px;
-  }
-  .contact .section-title {
-    font-size: 60px;
-  }
-  .contact .booking {
-    font-size: 30px;
-  }
-  .contact .contact-info {
-    font-size: 15px;
-  }
-  .contact .social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .contact .social-media a {
-    font-size: 20px;
-  }
+	nav .navbar-brand img {
+		width: 50px;
+		height: 48px;
+	}
+	header.hero-img .hero-logo img {
+		height: 60px;
+	}
+	header.hero-img .hero-logo h1 {
+		font-size: 20px;
+	}
+	.music .section-title {
+		font-size: 60px;
+	}
+	.music .covers img {
+		padding: 10px;
+		height: 300px;
+	}
+	.contact {
+		height: 290px;
+	}
+	.contact .section-title {
+		font-size: 60px;
+	}
+	.contact .booking {
+		font-size: 30px;
+	}
+	.contact .contact-info {
+		font-size: 15px;
+	}
+	.contact .social-media {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.contact .social-media a {
+		font-size: 20px;
+	}
 }
 @media (max-width: 576px) {
-  nav .navbar-brand img {
-    width: 50px;
-    height: 48px;
-  }
-  header.hero-img .hero-logo img {
-    height: 40px;
-  }
-  header.hero-img .hero-logo h1 {
-    font-size: 10px;
-  }
-  .music .section-title {
-    font-size: 40px;
-  }
-  .music .covers img {
-    padding: 10px;
-    height: 175px;
-  }
-  .contact {
-    height: 290px;
-  }
-  .contact .section-title {
-    font-size: 40px;
-  }
-  .contact .booking {
-    font-size: 20px;
-  }
-  .contact .contact-info {
-    font-size: 15px;
-  }
-  .contact .social-media {
-    display: flex;
-    flex-direction: column;
-  }
-  .contact .social-media a {
-    font-size: 14px;
-  }
-}/*# sourceMappingURL=style.css.map */
+	nav .navbar-brand img {
+		width: 50px;
+		height: 48px;
+	}
+	header.hero-img .hero-logo img {
+		height: 40px;
+	}
+	header.hero-img .hero-logo h1 {
+		font-size: 10px;
+	}
+	.music .section-title {
+		font-size: 40px;
+	}
+	.music .covers img {
+		padding: 10px;
+		height: 175px;
+	}
+	.contact {
+		height: 290px;
+	}
+	.contact .section-title {
+		font-size: 40px;
+	}
+	.contact .booking {
+		font-size: 20px;
+	}
+	.contact .contact-info {
+		font-size: 15px;
+	}
+	.contact .social-media {
+		display: flex;
+		flex-direction: column;
+	}
+	.contact .social-media a {
+		font-size: 14px;
+	}
+} /*# sourceMappingURL=style.css.map */
