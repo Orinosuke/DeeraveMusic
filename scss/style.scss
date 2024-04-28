@@ -190,7 +190,57 @@ footer {
 			justify-content: space-around;
 			img {
 				padding: 10px;
-				height: 400px;
+				height: 450px;
+			}
+		}
+	}
+	.contact {
+		.section-title {
+			font-size: 60px;
+		}
+		.contact-main-section {
+			.booking {
+				font-size: 40px;
+			}
+			.contact-info {
+				font-size: 30px;
+			}
+			.social-media {
+				.fa-brands {
+					font-size: 40px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	nav {
+		.navbar-brand img {
+			width: 50px;
+			height: 48px;
+		}
+	}
+
+	header.hero-img {
+		.hero-logo {
+			img {
+				height: 60px;
+			}
+
+			h1 {
+				font-size: 20px;
+			}
+		}
+	}
+	.music {
+		.section-title {
+			font-size: 60px;
+		}
+		.covers {
+			img {
+			
+				height: 340px;
 			}
 		}
 	}
@@ -239,8 +289,8 @@ footer {
 		}
 		.covers {
 			img {
-				padding: 10px;
-				height: 300px;
+				
+				height: 340px;
 			}
 		}
 	}
@@ -287,7 +337,7 @@ footer {
 			}
 			.covers {
 				img {
-					padding: 10px;
+					
 					height: 175px;
 				}
 			}
