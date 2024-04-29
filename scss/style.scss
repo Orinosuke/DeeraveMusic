@@ -72,7 +72,7 @@ header.hero-img {
 		height: 100%;
 
 		img {
-			height: 98px;
+			width: 1000px;
 		}
 
 		h1 {
@@ -95,10 +95,12 @@ header.hero-img {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		img {
-			height: 300px;
-			cursor: pointer;
-			transition: scale 0.3s;
+		a {
+			img {
+				width: 300px;
+				cursor: pointer;
+				transition: scale 0.3s;
+			}
 		}
 		img:hover {
 			scale: 1.1;
@@ -115,7 +117,7 @@ header.hero-img {
 	}
 	.contact-main-section {
 		position: relative;
-		height: 100%;
+		width: 100%;
 		background-image: url("../img/contact.jpg");
 		background-attachment: fixed;
 		background-size: cover;
@@ -160,7 +162,7 @@ footer {
 	background-color: $bg-color;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
 	nav {
 		.navbar-brand img {
 			width: 70px;
@@ -170,11 +172,11 @@ footer {
 	header.hero-img {
 		.hero-logo {
 			img {
-				height: 98px;
+				width: 70%;
 			}
 
 			h1 {
-				font-size: 20px;
+				font-size: 23px;
 			}
 		}
 	}
@@ -186,11 +188,13 @@ footer {
 		.covers {
 			display: flex;
 			align-items: center;
-			flex-wrap: wrap;
-			justify-content: space-around;
-			img {
-				padding: 10px;
-				height: 450px;
+
+			justify-content: space-between;
+			a {
+				img {
+					padding: 10px;
+					width: 100%;
+				}
 			}
 		}
 	}
@@ -214,54 +218,54 @@ footer {
 	}
 }
 
-@media (max-width: 992px) {
-	nav {
-		.navbar-brand img {
-			width: 50px;
-			height: 48px;
-		}
-	}
+// @media (max-width: 992px) {
+// 	nav {
+// 		.navbar-brand img {
+// 			width: 50px;
+// 			height: 48px;
+// 		}
+// 	}
 
-	header.hero-img {
-		.hero-logo {
-			img {
-				height: 60px;
-			}
+// 	header.hero-img {
+// 		.hero-logo {
+// 			img {
+// 				height: 60px;
+// 			}
 
-			h1 {
-				font-size: 20px;
-			}
-		}
-	}
-	.music {
-		.section-title {
-			font-size: 60px;
-		}
-		.covers {
-			img {
-				height: 340px;
-			}
-		}
-	}
-	.contact {
-		.section-title {
-			font-size: 60px;
-		}
-		.contact-main-section {
-			.booking {
-				font-size: 40px;
-			}
-			.contact-info {
-				font-size: 30px;
-			}
-			.social-media {
-				.fa-brands {
-					font-size: 40px;
-				}
-			}
-		}
-	}
-}
+// 			h1 {
+// 				font-size: 20px;
+// 			}
+// 		}
+// 	}
+// 	.music {
+// 		.section-title {
+// 			font-size: 60px;
+// 		}
+// 		.covers {
+// 			img {
+// 				height: 340px;
+// 			}
+// 		}
+// 	}
+// 	.contact {
+// 		.section-title {
+// 			font-size: 60px;
+// 		}
+// 		.contact-main-section {
+// 			.booking {
+// 				font-size: 40px;
+// 			}
+// 			.contact-info {
+// 				font-size: 30px;
+// 			}
+// 			.social-media {
+// 				.fa-brands {
+// 					font-size: 40px;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
 
 @media (max-width: 768px) {
 	nav {
@@ -287,8 +291,11 @@ footer {
 			font-size: 60px;
 		}
 		.covers {
-			img {
-				height: 340px;
+			a {
+				img {
+					width: 100%;
+					// height: 340px;
+				}
 			}
 		}
 	}
@@ -310,7 +317,8 @@ footer {
 			}
 		}
 	}
-	@media (max-width: 575.98px) {
+	
+	@media (max-width: 576px) {
 		nav {
 			.navbar-brand img {
 				width: 50px;
@@ -321,7 +329,7 @@ footer {
 		header.hero-img {
 			.hero-logo {
 				img {
-					height: 40px;
+					height: 35px;
 				}
 
 				h1 {
@@ -334,8 +342,13 @@ footer {
 				font-size: 40px;
 			}
 			.covers {
-				img {
-					height: 175px;
+				justify-content: center;
+				flex-wrap: wrap;
+				a {
+					width: 50%;
+					img {
+						width: 50%;
+					}
 				}
 			}
 		}
@@ -354,55 +367,6 @@ footer {
 					.fa-brands {
 						font-size: 30px;
 					}
-				}
-			}
-		}
-	}
-}
-@media (max-width: 576px) {
-	nav {
-		.navbar-brand img {
-			width: 50px;
-			height: 48px;
-		}
-	}
-
-	header.hero-img {
-		.hero-logo {
-			img {
-				height: 40px;
-			}
-
-			h1 {
-				font-size: 10px;
-			}
-		}
-	}
-	.music {
-		.section-title {
-			font-size: 40px;
-		}
-		.covers {
-			justify-content: center;
-			img {
-				height: 145px;
-			}
-		}
-	}
-	.contact {
-		.section-title {
-			font-size: 40px;
-		}
-		.contact-main-section {
-			.booking {
-				font-size: 30px;
-			}
-			.contact-info {
-				font-size: 15px;
-			}
-			.social-media {
-				.fa-brands {
-					font-size: 30px;
 				}
 			}
 		}

@@ -71,7 +71,7 @@ header.hero-img .hero-logo {
   height: 100%;
 }
 header.hero-img .hero-logo img {
-  height: 98px;
+  width: 1000px;
 }
 header.hero-img .hero-logo h1 {
   margin-top: 20px;
@@ -92,8 +92,8 @@ header.hero-img .hero-logo h1 {
   align-items: center;
   justify-content: space-between;
 }
-.music .covers img {
-  height: 300px;
+.music .covers a img {
+  width: 300px;
   cursor: pointer;
   transition: scale 0.3s;
 }
@@ -112,7 +112,7 @@ header.hero-img .hero-logo h1 {
 }
 .contact .contact-main-section {
   position: relative;
-  height: 100%;
+  width: 100%;
   background-image: url("../img/contact.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -156,16 +156,16 @@ footer {
   background-color: #272727;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   nav .navbar-brand img {
     width: 70px;
     height: 68px;
   }
   header.hero-img .hero-logo img {
-    height: 98px;
+    width: 70%;
   }
   header.hero-img .hero-logo h1 {
-    font-size: 20px;
+    font-size: 23px;
   }
   .music .section-title {
     font-size: 60px;
@@ -173,42 +173,11 @@ footer {
   .music .covers {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
-  .music .covers img {
+  .music .covers a img {
     padding: 10px;
-    height: 450px;
-  }
-  .contact .section-title {
-    font-size: 60px;
-  }
-  .contact .contact-main-section .booking {
-    font-size: 40px;
-  }
-  .contact .contact-main-section .contact-info {
-    font-size: 30px;
-  }
-  .contact .contact-main-section .social-media .fa-brands {
-    font-size: 40px;
-  }
-}
-@media (max-width: 992px) {
-  nav .navbar-brand img {
-    width: 50px;
-    height: 48px;
-  }
-  header.hero-img .hero-logo img {
-    height: 60px;
-  }
-  header.hero-img .hero-logo h1 {
-    font-size: 20px;
-  }
-  .music .section-title {
-    font-size: 60px;
-  }
-  .music .covers img {
-    height: 340px;
+    width: 100%;
   }
   .contact .section-title {
     font-size: 60px;
@@ -237,8 +206,8 @@ footer {
   .music .section-title {
     font-size: 60px;
   }
-  .music .covers img {
-    height: 340px;
+  .music .covers a img {
+    width: 100%;
   }
   .contact .section-title {
     font-size: 60px;
@@ -253,43 +222,13 @@ footer {
     font-size: 40px;
   }
 }
-@media (max-width: 768px) and (max-width: 575.98px) {
+@media (max-width: 768px) and (max-width: 576px) {
   nav .navbar-brand img {
     width: 50px;
     height: 48px;
   }
   header.hero-img .hero-logo img {
-    height: 40px;
-  }
-  header.hero-img .hero-logo h1 {
-    font-size: 10px;
-  }
-  .music .section-title {
-    font-size: 40px;
-  }
-  .music .covers img {
-    height: 175px;
-  }
-  .contact .section-title {
-    font-size: 40px;
-  }
-  .contact .contact-main-section .booking {
-    font-size: 30px;
-  }
-  .contact .contact-main-section .contact-info {
-    font-size: 15px;
-  }
-  .contact .contact-main-section .social-media .fa-brands {
-    font-size: 30px;
-  }
-}
-@media (max-width: 576px) {
-  nav .navbar-brand img {
-    width: 50px;
-    height: 48px;
-  }
-  header.hero-img .hero-logo img {
-    height: 40px;
+    height: 35px;
   }
   header.hero-img .hero-logo h1 {
     font-size: 10px;
@@ -299,9 +238,13 @@ footer {
   }
   .music .covers {
     justify-content: center;
+    flex-wrap: wrap;
   }
-  .music .covers img {
-    height: 145px;
+  .music .covers a {
+    width: 50%;
+  }
+  .music .covers a img {
+    width: 50%;
   }
   .contact .section-title {
     font-size: 40px;
