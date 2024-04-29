@@ -171,6 +171,7 @@ footer {
     font-size: 60px;
   }
   .music .covers {
+    margin: -10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -198,7 +199,7 @@ footer {
     height: 48px;
   }
   header.hero-img .hero-logo img {
-    height: 60px;
+    width: 60%;
   }
   header.hero-img .hero-logo h1 {
     font-size: 20px;
@@ -206,7 +207,7 @@ footer {
   .music .section-title {
     font-size: 60px;
   }
-  .music .covers a img {
+  .music .covers a {
     width: 100%;
   }
   .contact .section-title {
@@ -228,7 +229,7 @@ footer {
     height: 48px;
   }
   header.hero-img .hero-logo img {
-    height: 35px;
+    width: 60%;
   }
   header.hero-img .hero-logo h1 {
     font-size: 10px;
@@ -241,9 +242,6 @@ footer {
     flex-wrap: wrap;
   }
   .music .covers a {
-    width: 50%;
-  }
-  .music .covers a img {
     width: 50%;
   }
   .contact .section-title {
