@@ -1,5 +1,7 @@
 @use "./colors" as *;
-
+@function cvw($size, $screenSize) {
+	@return #{($size/$screenSize) * 100}vw;
+}
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -176,7 +178,7 @@ footer {
 			}
 
 			h1 {
-				font-size: 23px;
+				font-size: cvw(27, 1400);
 			}
 		}
 	}
@@ -233,7 +235,7 @@ footer {
 			}
 
 			h1 {
-				font-size: 20px;
+				font-size: cvw(18, 768);
 			}
 		}
 	}
@@ -281,7 +283,7 @@ footer {
 				}
 
 				h1 {
-					font-size: calc(10px / 100vw);
+					font-size: cvw(13, 576);
 				}
 			}
 		}
