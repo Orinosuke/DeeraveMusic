@@ -39,6 +39,7 @@ nav {
 		font-size: 20px;
 		color: $main-color;
 		transition: color 0.5s;
+		text-align: center;
 	}
 
 	.nav-link:focus,
@@ -227,9 +228,12 @@ footer {
 			height: 48px;
 		}
 	}
+	#navId.expanded {
+		background-color: #000c;
+	}
 
 	header.hero-img {
-		.hero-logo {
+		Ś .hero-logo {
 			img {
 				width: 60%;
 			}

@@ -17,3 +17,17 @@ document.addEventListener("DOMContentLoaded", function () {
 	);
 	window.addEventListener("scroll", addShadow);
 });
+
+document
+	.querySelector(".navbar-toggler")
+	.addEventListener("click", function () {
+		const navbar = document.getElementById("navId");
+		const navbarClasses = navbar.getAttribute("class");
+		let newClasses = "";
+		if (navbarClasses.includes("expanded")) {
+			newClasses = navbarClasses.replace("expanded", "");
+		} else {
+			newClasses = navbarClasses + " expanded";
+		}
+		navbar.setAttribute("class", newClasses);
+	});

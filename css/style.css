@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -38,6 +39,7 @@ nav .fa-bars {
   font-size: 20px;
   color: white;
   transition: color 0.5s;
+  text-align: center;
 }
 nav .nav-link:focus,
 nav .nav-link:hover,
@@ -198,10 +200,13 @@ footer {
     width: 50px;
     height: 48px;
   }
-  header.hero-img .hero-logo img {
+  #navId.expanded {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  header.hero-img Ś .hero-logo img {
     width: 60%;
   }
-  header.hero-img .hero-logo h1 {
+  header.hero-img Ś .hero-logo h1 {
     font-size: 2.34375vw;
   }
   .music .section-title {
