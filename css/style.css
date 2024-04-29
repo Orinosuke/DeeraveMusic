@@ -171,7 +171,7 @@ footer {
     font-size: 60px;
   }
   .music .covers {
-    margin: -10px;
+    margin: 0 -10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -207,8 +207,11 @@ footer {
   .music .section-title {
     font-size: 60px;
   }
+  .music .covers {
+    flex-wrap: wrap;
+  }
   .music .covers a {
-    width: 100%;
+    width: 50%;
   }
   .contact .section-title {
     font-size: 60px;

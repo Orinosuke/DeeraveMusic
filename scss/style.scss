@@ -188,7 +188,7 @@ footer {
 			font-size: 60px;
 		}
 		.covers {
-			margin: -10px;
+			margin: 0 -10px;
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
@@ -244,8 +244,9 @@ footer {
 			font-size: 60px;
 		}
 		.covers {
+			flex-wrap: wrap;
 			a {
-				width: 100%;
+				width: 50%;
 			}
 		}
 	}
