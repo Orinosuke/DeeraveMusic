@@ -196,12 +196,12 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  #navId.expanded {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
   nav .navbar-brand img {
     width: 50px;
     height: 48px;
-  }
-  #navId.expanded {
-    background-color: rgba(0, 0, 0, 0.8);
   }
   header.hero-img Ś .hero-logo img {
     width: 60%;
@@ -232,6 +232,9 @@ footer {
   }
 }
 @media (max-width: 768px) and (max-width: 576px) {
+  #navId.expanded {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
   nav .navbar-brand img {
     width: 50px;
     height: 48px;
