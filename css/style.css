@@ -6,7 +6,7 @@
 }
 
 html {
-  scroll-padding-top: 200px;
+  scroll-padding-top: 110px;
 }
 
 body {
@@ -103,6 +103,24 @@ header.hero-img .hero-logo h1 {
   scale: 1.1;
 }
 
+.gallery .section-title {
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+.gallery .photos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.gallery .photos img {
+  width: 640px;
+  padding-bottom: 20px;
+}
+
 .contact {
   text-align: center;
   text-transform: uppercase;
@@ -175,12 +193,23 @@ footer {
   .music .covers {
     margin: 0 -10px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
   }
   .music .covers a img {
     padding: 10px;
     width: 100%;
+  }
+  .gallery .section-title {
+    font-size: 60px;
+  }
+  .gallery .photos {
+    margin: 0 -10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .gallery .photos img {
+    padding: 10px;
+    width: 50%;
   }
   .contact .section-title {
     font-size: 60px;
@@ -218,6 +247,15 @@ footer {
   .music .covers a {
     width: 50%;
   }
+  .gallery .section-title {
+    font-size: 60px;
+  }
+  .gallery .photos {
+    flex-wrap: wrap;
+  }
+  .gallery .photos img {
+    width: 100%;
+  }
   .contact .section-title {
     font-size: 60px;
   }
@@ -254,6 +292,9 @@ footer {
   }
   .music .covers a {
     width: 50%;
+  }
+  .gallery .section-title {
+    font-size: 40px;
   }
   .contact .section-title {
     font-size: 40px;
