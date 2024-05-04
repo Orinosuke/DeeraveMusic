@@ -183,6 +183,16 @@ header.hero-img .hero-logo h1 {
   color: white;
   text-align: center;
 }
+.bio .photos-bio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.bio .photos-bio img {
+  width: 640px;
+  padding-bottom: 20px;
+}
 
 footer {
   background-color: #272727;
@@ -236,7 +246,16 @@ footer {
     font-size: 40px;
   }
   .bio .main-img img {
-    width: 100%;
+    width: 70%;
+  }
+  .bio .photos-bio {
+    margin: 0 -10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bio .photos-bio img {
+    padding: 10px;
+    width: 50%;
   }
 }
 @media (max-width: 768px) {
@@ -283,6 +302,12 @@ footer {
   .contact .contact-main-section .social-media .fa-brands {
     font-size: 40px;
   }
+  .contact .bio .photo-bio {
+    flex-wrap: wrap;
+  }
+  .contact .bio .photo-bio img {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) and (max-width: 576px) {
   #navId.expanded {
@@ -326,5 +351,11 @@ footer {
   .bio .bio-text {
     padding: 0 2px;
     font-size: 13px;
+  }
+  .bio .photos-bio {
+    flex-wrap: wrap;
+  }
+  .bio .photos-bio img {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
