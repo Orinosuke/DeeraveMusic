@@ -235,6 +235,9 @@ footer {
   .contact .contact-main-section .social-media .fa-brands {
     font-size: 40px;
   }
+  .bio .main-img img {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   #navId.expanded {
@@ -319,5 +322,9 @@ footer {
   }
   .contact .contact-main-section .social-media .fa-brands {
     font-size: 30px;
+  }
+  .bio .bio-text {
+    padding: 0 2px;
+    font-size: 13px;
   }
 }/*# sourceMappingURL=style.css.map */
