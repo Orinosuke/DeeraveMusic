@@ -172,6 +172,18 @@ header.hero-img .hero-logo h1 {
   scale: 1.4;
 }
 
+.bio .main-img {
+  display: flex;
+  justify-content: center;
+}
+.bio .main-img img {
+  width: 500px;
+}
+.bio .bio-text {
+  color: white;
+  text-align: center;
+}
+
 footer {
   background-color: #272727;
 }

@@ -182,6 +182,21 @@ header.hero-img {
 		}
 	}
 }
+// BIO SECTION //
+.bio {
+	.main-img {
+		display: flex;
+		justify-content: center;
+		img {
+			width: 500px;
+		}
+	}
+	.bio-text {
+		color: $main-color;
+		text-align: center;
+	}
+}
+
 footer {
 	background-color: $bg-color;
 }
@@ -212,7 +227,7 @@ footer {
 		.covers {
 			margin: 0 -10px;
 			display: flex;
-			
+
 			justify-content: space-between;
 			a {
 				img {
