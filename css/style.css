@@ -173,6 +173,8 @@ header.hero-img .hero-logo h1 {
 }
 
 .bio .main-img {
+  position: relative;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
 }
@@ -182,6 +184,7 @@ header.hero-img .hero-logo h1 {
 .bio .bio-text {
   color: white;
   text-align: center;
+  font-size: 17px;
 }
 .bio .photos-bio {
   display: flex;
@@ -246,7 +249,7 @@ footer {
     font-size: 40px;
   }
   .bio .main-img img {
-    width: 70%;
+    width: 50%;
   }
   .bio .photos-bio {
     margin: 0 -10px;
@@ -347,6 +350,9 @@ footer {
   }
   .contact .contact-main-section .social-media .fa-brands {
     font-size: 30px;
+  }
+  .bio .main-img img {
+    width: 100%;
   }
   .bio .bio-text {
     padding: 0 2px;

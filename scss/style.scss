@@ -182,9 +182,11 @@ header.hero-img {
 		}
 	}
 }
-// BIO SECTION //
+// BIO SUBPAGE //
 .bio {
 	.main-img {
+		position: relative;
+		margin-top: 100px;
 		display: flex;
 		justify-content: center;
 		img {
@@ -194,6 +196,7 @@ header.hero-img {
 	.bio-text {
 		color: $main-color;
 		text-align: center;
+		font-size: 17px;
 	}
 	.photos-bio {
 		display: flex;
@@ -284,7 +287,7 @@ footer {
 	.bio {
 		.main-img {
 			img {
-				width: 70%;
+				width: 50%;
 			}
 		}
 		.photos-bio {
@@ -431,6 +434,12 @@ footer {
 			}
 		}
 		.bio {
+			
+			.main-img {
+				img{
+					width: 100%;
+				}
+			}
 			.bio-text {
 				padding: 0 2px;
 				font-size: 13px;
