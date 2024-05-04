@@ -8,13 +8,16 @@
 	margin: 0;
 }
 html {
+	height: 100%;
 	scroll-padding-top: 110px;
 }
 
 body {
+	display: flex;
+	flex-direction: column;
 	font-family: "Montserrat", sans-serif;
 	background-color: $bg-color;
-	height: 100%;
+	min-height: 100%;
 }
 .shadow-bg {
 	background-color: rgba(0, 0, 0, 0.8);
@@ -212,6 +215,7 @@ header.hero-img {
 }
 
 footer {
+	margin-top: auto;
 	background-color: $bg-color;
 }
 
@@ -434,9 +438,8 @@ footer {
 			}
 		}
 		.bio {
-			
 			.main-img {
-				img{
+				img {
 					width: 100%;
 				}
 			}
