@@ -177,7 +177,7 @@ header.hero-img .hero-logo h1 {
 
 .bio .main-img {
   position: relative;
-  margin-top: 100px;
+  margin-top: 150px;
   display: flex;
   justify-content: center;
 }
@@ -251,6 +251,9 @@ footer {
   }
   .contact .contact-main-section .social-media .fa-brands {
     font-size: 40px;
+  }
+  .bio {
+    margin-top: -40px;
   }
   .bio .main-img img {
     width: 50%;
@@ -354,6 +357,9 @@ footer {
   }
   .contact .contact-main-section .social-media .fa-brands {
     font-size: 30px;
+  }
+  .bio {
+    margin-top: -60px;
   }
   .bio .main-img img {
     width: 100%;

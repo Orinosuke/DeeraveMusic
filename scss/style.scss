@@ -189,7 +189,7 @@ header.hero-img {
 .bio {
 	.main-img {
 		position: relative;
-		margin-top: 100px;
+		margin-top: 150px;
 		display: flex;
 		justify-content: center;
 		img {
@@ -289,6 +289,7 @@ footer {
 		}
 	}
 	.bio {
+		margin-top: -40px;
 		.main-img {
 			img {
 				width: 50%;
@@ -438,6 +439,7 @@ footer {
 			}
 		}
 		.bio {
+			margin-top: -60px;
 			.main-img {
 				img {
 					width: 100%;
